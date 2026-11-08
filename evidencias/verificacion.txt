@@ -1,0 +1,10 @@
+Archivo revisado: usuarios.py
+Lineas: 42
+SHA256 antes: 250783C18AF2113A5D0F76F8118B2EA5B0CB87A39AC6BB749821CEB528CD9F8D
+SHA256 despues: 250783C18AF2113A5D0F76F8118B2EA5B0CB87A39AC6BB749821CEB528CD9F8D
+git diff --exit-code HEAD -- usuarios.py: salida vacia, codigo 0.
+El archivo coincide con la version de la plantilla descargada.
+No se ejecuto usuarios.py ni se crearon conexiones a tienda.db.
+Codex CLI: 0.166.0-alpha.6.
+Sandbox de la sesion de revision: read-only.
+Delegacion real con contenido suministrado por el invocador; hijo sin herramientas.
