@@ -1,0 +1,13 @@
+{
+  "component": "Card",
+  "children": [
+    {"component": "Text", "text": "usuarios.py · línea 21 · severidad: alta"},
+    {"component": "Text", "text": "El nombre se concatena a la consulta SQL sin parametrizar."},
+    {
+      "component": "Button",
+      "label": "Solicitar revisión adicional",
+      "event": "pedir_revision",
+      "data": {"findingId": "SQL-01", "file": "usuarios.py", "line": 21}
+    }
+  ]
+}
