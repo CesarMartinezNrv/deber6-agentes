@@ -10,9 +10,9 @@ Las cinco imágenes son capturas de vistas locales en navegador, tomadas el 8 de
 
 ## Registros verificables
 
-`delegacion-extracto.json` conserva los campos pertinentes del historial local: timestamp, llamada, argumentos de nombre y contexto, resultado, metadatos del hijo y su respuesta final. Se omiten el mensaje cifrado de delegación y metadatos privados. La omisión está marcada; no se sustituye por un mensaje inventado. La fuente local íntegra queda fuera de la entrega.
+`delegacion-extracto.json` conserva los campos pertinentes del historial de Codex: timestamp, llamada, argumentos de nombre y contexto, resultado, metadatos del hijo y su respuesta final. Se omiten el mensaje cifrado de delegación y metadatos privados. La omisión está marcada; no se sustituye por un mensaje inventado. El historial íntegro permanece en Codex, fuera de esta carpeta.
 
-`delegacion-cli.jsonl` es la salida original de `codex exec --json`. Su serializador solo muestra la espera de colaboración; por eso se adjunta además el extracto del historial que sí registra el lanzamiento y el hilo hijo. `resultado-subagente.md` conserva el mensaje final del principal de esa misma ejecución. La respuesta final del hijo está también en el extracto.
+El extracto del historial registra el lanzamiento y el hilo hijo. `resultado-subagente.md` conserva el mensaje final del principal de esa misma ejecución, mostrado en la captura de la llamada. La respuesta final del hijo está también en el extracto.
 
 Sesión principal: `01a1bc64-bf47-7461-aabb-a5b24694b269`.
 
